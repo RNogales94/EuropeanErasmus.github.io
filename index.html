@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>European Erasmus</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="./tabs.js"></script>
+
+  </head>
+  <body>
+    <section class="hero is-info is-bold">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              European Erasmus
+            </h1>
+            <h2 class="subtitle">
+              Your trust advisor
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <div class="tabs is-centered is-boxed is-medium">
+        <ul>
+          <li class="tab is-active" onclick="openTab(event, 'EnjoyTab')">
+            <a>
+              <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+              <span>Enjoy</span>
+            </a>
+          </li>
+          <li class="tab" onclick="openTab(event, 'CultureTab')">
+            <a>
+              <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+              <span>Culture</span>
+            </a>
+          </li>
+          <li class="tab" onclick="openTab(event, 'LiveTab')">
+            <a>
+              <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+              <span>Live</span>
+            </a>
+          </li>
+          <li class="tab" onclick="openTab(event, 'WorkTab')">
+            <a>
+              <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+              <span>Work</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+        
+    <section class="container section">
+        <div id="EnjoyTab" class="content-tab" >
+        <p>
+            test1<br>
+        Overview Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div id="CultureTab" class="content-tab" style="display:none">
+            <p>
+            test2<br>
+            Details Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div id="LiveTab" class="content-tab" style="display:none">
+        <p>
+            test3 <br>  
+        Specification Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div id="WorkTab" class="content-tab" style="display:none">
+                <p>
+                    test4 <br>  
+                Specification Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </section>
+
+
+  </body>
+</html>
